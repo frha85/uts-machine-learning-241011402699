@@ -1,6 +1,8 @@
 # uts-machine-learning-241011402699
 Nama: Farha Arvadilla Damayanti
+
 NIM: 241011402699
+
 Kelas: Reg B
 
 1. Linear Regression
