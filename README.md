@@ -3,22 +3,34 @@ Nama: Farha Arvadilla Damayanti
 NIM: 241011402699
 Kelas: Reg B
 
-Ringkasan Hasil
-
 1. Linear Regression
 
-R²   : 0,865828
+Model Linear Regression digunakan untuk memprediksi penjualan berdasarkan biaya iklan. Hasil perbandingan antara Linear Regression dan sklearn.linear_model.LinearRegression menunjukkan nilai koefisien dan hasil prediksi yang sama.
 
-MAE  : 6,204764
+Hasil evaluasi pada data testing:
 
-RMSE  : 7,056874
+MAE  : 6.204764
+
+MSE  : 49.799464
+
+RMSE  : 7.056874
+
+R²    : 0.865828
 
 2. Logistic Regression
 
-Accuracy   : 93,33%
+Model Logistic Regression digunakan untuk mengklasifikasikan email menjadi spam dan bukan spam berdasarkan jumlah link dan kata promosi. Dataset terdiri dari 60 data, dengan 45 data training dan 15 data testing.
 
-Precision  : 100%
+Hasil evaluasi pada data testing:
 
-Recall     : 75%
+Accuracy    : 93.33%
 
-F1-Score   : 85,71%
+Precision   : 100%
+
+Recall      : 75%
+
+F1-Score    : 85.71%
+
+Log Loss Logistic Regression  : 0.196137
+
+Log Loss Scikit-learn  : 0.205625
